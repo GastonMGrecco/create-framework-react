@@ -1,13 +1,13 @@
 {
   "name": "create-framework-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this is the best way to create a react app",
   "main": "index.js",
   "bin": {
     "create-framework-react": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-framework-react": "node ./index.js"
   },
   "keywords": [
     "react",
