@@ -1,0 +1,19 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "description-project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "key-words"
+  ],
+  "author": "author-name <e-mail>",
+  "license": "MIT",
+  "dependencies": dependencies-json,
+  "devDependencies": devDependencies-json
+}

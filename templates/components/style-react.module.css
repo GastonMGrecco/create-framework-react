@@ -1,0 +1,19 @@
+.AppLogo {
+  /* width: 30%; */
+  height:30%;
+  box-sizing: content-box;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .AppLogo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

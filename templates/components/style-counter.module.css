@@ -1,0 +1,28 @@
+.container{
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+.buttons{
+  display:flex;
+  flex-direction: column;
+  align-items: stretch;
+  width:200px;
+}
+.addless{
+  display:flex;
+  flex-direction: row;
+  justify-content:stretch;
+}
+button{
+  flex-grow: 1;
+  background-color:rgb(32,35,42);
+  color:white;
+  border: double 2px white;
+  
+}
+@media (min-width: 768px) {
+  .container{
+    align-items: start;
+  }
+}
