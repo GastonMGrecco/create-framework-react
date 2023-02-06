@@ -1,10 +1,11 @@
 {
   "name": "create-framework-react",
-  "version": "0.0.13",
+  "version": "0.0.17",
   "description": "This is the best way to create a react app",
   "bin": {
     "create-framework-react": "index.js"
   },
+  "type": "commonjs",
   "scripts": {
     "create-framework-react": "node ./index.js"
   },
