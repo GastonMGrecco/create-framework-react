@@ -1,8 +1,7 @@
 {
   "name": "create-framework-react",
-  "version": "0.0.2",
-  "description": "this is the best way to create a react app",
-  "main": "index.js",
+  "version": "0.0.13",
+  "description": "This is the best way to create a react app",
   "bin": {
     "create-framework-react": "index.js"
   },
@@ -15,11 +14,21 @@
     "app",
     "framework"
   ],
-  "author": "Gaston Maximiliano Grecco (G.M.G) <gastonmgrecco@gmail.com",
+  "author": "Gaston Maximiliano Grecco (G.M.G)",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "inquirer": "^8.2.5",
     "ora": "^6.1.2"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GastonMGrecco/create-framework-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GastonMGrecco/create-framework-react/issues"
+  },
+  "homepage": "https://github.com/GastonMGrecco/create-framework-react#readme"
 }
