@@ -12,16 +12,21 @@
 This is a the best framework react builder through webpack or vite builder
 
 
-#### Node.js
-Required 16.14.2 version or higher
+### Node.js
+* Required 16.14.2 version or higher
 
-#### Create framework react
-`$ npx create-framework-react`
+### Install Create framework react
+* `$ npm i create-framework-react -g`
+### Install and execute 
+* `$ npx create-framework-react`
+
+# New
+<img src="./pictures/language.png" height=50/>
 
 #### Usage
 >First
 
-`path/where/you/will/create/project>$ npx create-framework-react`
+`$ create-framework-react`
 >Second
 
 `Write the name of your project`

@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command, mode }) => {
   if (command === 'serve') {
     return {
+      publicDir: '/public',
       plugins: [react()],
       esbuild: {
         loader: 'jsx',
