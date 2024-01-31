@@ -26,12 +26,12 @@ const spanish = () =>{
         import("../module/ora.mjs").then(({ ora }) => {
             const spinner = ora({ text: 'Instalando dependencias...', spinner: 'material', color: 'green' }).start()
     
-            exec(`cd ${respuestas.name}/ && npm install`, (error, stdout, stderr) => {
+            exec(`cd ${respuestas.name}/ && ${respuestas.install} install`, (error, stdout, stderr) => {
                 spinner.succeed('Dependencias instaladas satisfactoriamente!!!');
                 console.log(stdout)
                 console.log(`\n Tu proyecto react "${respuestas.name}" fue creado satisfactoriamente con el empaquetador ${respuestas.builder}!!!`.cyan);
                 console.log(`\n Próximo paso: ${'cd'.green} ${respuestas.name.yellow}`)
-                console.log(`\n Inicia el proyecto: ${'npm start'.green}\n`)
+                console.log(`\n Inicia el proyecto: ${respuestas.install.green} ${'start'.green}\n`)
             })
         })
     })

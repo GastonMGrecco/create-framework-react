@@ -2,7 +2,7 @@ import React from 'react';
 import Counter from '../components/Counter';
 import Logo from '../components/Logo';
 import Vite from '../components/Vite';
-import style from './style-home.module.css';
+import style from './style-home.module.#EXTENSION';
 
 const Home = () => {
 

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const indexFile = (answers) => {
-  const redux = answers.install.find(library  => library === 'redux')
+  const redux = answers.dependencies.find(library  => library === 'redux')
 
   if(redux){
     fs.mkdirSync(`${answers.name}/src/redux`,'0777',error=>(error))

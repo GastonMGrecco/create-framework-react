@@ -1,6 +1,6 @@
 import React from 'react';
 import viteLogo from '../assets/vite.svg';
-import style from './style-vite.module.css';
+import style from './style-vite.module.#EXTENSION';
 
 const Vite = () => {
   return (

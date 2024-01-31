@@ -13,7 +13,7 @@ const jsonVite = (answers) => {
       "@vitejs/plugin-react": "^3.1.0",
       "vite": "^4.1.0",
     }
-      answers.install.forEach(library =>{
+      answers.dependencies.forEach(library =>{
         
         switch(library){
           case 'redux': dependencies['react-redux']="^8.0.2"

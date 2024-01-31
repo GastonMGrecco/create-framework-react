@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
-import './style.module.css';
+import './style.module.#EXTENSION';
 
 const App = () => {
   return (

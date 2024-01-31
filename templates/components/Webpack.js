@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './style-webpack.module.css';
+import style from './style-webpack.module.#EXTENSION';
 
 const Webpack = () => {
   return (

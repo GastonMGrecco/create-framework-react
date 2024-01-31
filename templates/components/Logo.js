@@ -1,6 +1,6 @@
 import React from 'react';
 import react from '../assets/react.svg';
-import style from './style-react.module.css';
+import style from './style-react.module.#EXTENSION';
 
 const Logo = () => {
 

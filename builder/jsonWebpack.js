@@ -17,14 +17,13 @@ const jsonWebpack = (answers) => {
         "file-loader": "^6.2.0",
         "html-webpack-plugin": "^5.5.0",
         "postcss-loader": "^7.0.0",
-        "sass-loader": "^13.2.0",
         "source-map-loader": "^4.0.0",
         "style-loader": "^3.3.1",
         "webpack": "^5.72.0",
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.8.1"
     }
-      answers.install.forEach(library =>{
+      answers.dependencies.forEach(library =>{
         
         switch(library){
           case 'redux': dependencies['react-redux']="^8.0.2"
@@ -37,6 +36,9 @@ const jsonWebpack = (answers) => {
           case 'react-hook-form': dependencies['react-hook-form']="^7.32.2"
                 break;
           case 'react-error-boundary': dependencies['react-error-boundary']="^3.1.4"
+                break;
+          case 'sass': devDependencies['sass']="^1.69.7"
+                       devDependencies['sass-loader']="^13.2.0"
                 break;
           case 'eslint': devDependencies['eslint']= "^8.14.0"
                          devDependencies['eslint-config-standard']= "^17.0.0"

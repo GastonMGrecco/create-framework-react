@@ -26,12 +26,12 @@ const english = () =>{
         import("../module/ora.mjs").then(({ ora }) => {
             const spinner = ora({ text: 'Installing dependencies...', spinner: 'material', color: 'green' }).start()
     
-            exec(`cd ${answers.name}/ && npm install`, (error, stdout, stderr) => {
+            exec(`cd ${answers.name}/ && ${answers.install} install`, (error, stdout, stderr) => {
                 spinner.succeed('Dependencies installed successfully!!!');
                 console.log(stdout)
                 console.log(`\n Your framework react "${answers.name}" was created successfully on ${answers.builder} builder!!!`.cyan);
                 console.log(`\n Now just need: ${'cd'.green} ${answers.name.yellow}'`)
-                console.log(`\n Now just need: ${'npm start'.green}\n`)
+                console.log(`\n Now just need: ${answers.install.green} ${'start'.green}\n`)
             })
         })
     })

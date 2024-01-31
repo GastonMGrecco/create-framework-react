@@ -37,11 +37,18 @@ const respuestas = inquirer.prompt([
   },
   {
     type: 'checkbox',
-    name: 'install',
+    name: 'dependencies',
     message: 'Qué librerías quieres instalar?',
-    choices: ['redux', 'react-router-dom', 'axios', 'react-hook-form', 'eslint', 'react-error-boundary']
+    choices: ['redux', 'react-router-dom', 'axios', 'react-hook-form', 'eslint', 'react-error-boundary', 'sass']
     //Bootstrap,Tailwings,MaterialUI,Jest(enzyme),Jest(react-testing-library),
-  }
+  },
+  {
+    type: 'list',
+    name: 'install',
+    message: 'Como quieres instalar tus dependencias?',
+    default: 'npm',
+    choices: ['npm','yarn']
+  },
 
   //JS or TS files
 ])
